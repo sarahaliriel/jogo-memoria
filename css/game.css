@@ -80,3 +80,32 @@ header {
 
   }
 }
+
+#end-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.85);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.end-message {
+  background: white;
+  color: black;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+}
+
+#restart-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-family: 'Press Start 2P', cursive;
+  cursor: pointer;
+}
